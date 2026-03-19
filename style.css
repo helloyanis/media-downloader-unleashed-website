@@ -1,0 +1,60 @@
+html {
+    font-family: system-ui;
+}
+
+#title {
+    margin: 1em;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.screenshot {
+    max-height: 50vh;
+    max-width: 90vw;
+    border-radius: 8px;
+}
+mdui-card{
+    background-color: rgb(var(--mdui-color-surface-container-high));
+    padding: .5em;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-bottom: 0.5em;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    max-width: 800px;
+}
+.features p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
